@@ -7,9 +7,7 @@ import YourComponent from './Components/YourComponent';
 const App = () => (
   <BrowserRouter>
     <div className="App">
-      <Button variant="outlined">
-        Sample Button from App Component
-      </Button>
+      <Button variant="outlined"> Sample Button from App Component</Button>
       <Switch>
         <Route path="/yourcomponent" component={YourComponent} />
       </Switch>

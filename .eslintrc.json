@@ -2,7 +2,8 @@
     "extends": "airbnb",
     "rules": {
         "implicit-arrow-linebreak": "off",
-        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "linebreak-style":"off"
     },
     "env": {
         "browser": true,
